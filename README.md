@@ -8,7 +8,7 @@ Even if a business hires a delivery service contractor, their communication woul
 A platform is needed to offer online communication between customer, business and delivery service.
 
 
-REST API git repository:
-https://github.com/ant0n15/restAPI
-Android App git repository:
+REST API git repository:<br>
+https://github.com/ant0n15/restAPI<br>
+Android App git repository:<br>
 https://github.com/konstantino7/Bakery-Delivery
