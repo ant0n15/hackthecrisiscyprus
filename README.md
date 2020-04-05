@@ -11,4 +11,6 @@ A platform is needed to offer online communication between customer, business an
 REST API git repository:<br>
 https://github.com/ant0n15/restAPI<br>
 Android App git repository:<br>
-https://github.com/konstantino7/Bakery-Delivery
+https://github.com/konstantino7/Bakery-Delivery<br>
+Web Apps:<br>
+https://github.com/ant0n15/web
