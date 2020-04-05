@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/RegisterFragment">
+
+    <fragment
+        android:id="@+id/RegisterFragment"
+        android:name="com.delivery.bakery.ui.register.RegisterFragment"
+        tools:layout="@layout/register_fragment" />
+
+</navigation>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/product_item" />
+    
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="@dimen/space_xlarge"
+        android:layout_marginEnd="@dimen/space_xlarge"
+        android:layout_marginBottom="@dimen/space_xxlarge"
+        android:background="#827F7F"
+        app:layout_constraintBottom_toTopOf="@+id/visa_payment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/visa_payment"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="@dimen/space_large"
+        android:background="@drawable/visa"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/add_to_card"
+        app:layout_constraintStart_toStartOf="@+id/add_to_card" />
+
+    <ImageView
+        android:id="@+id/skash_payment"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="@dimen/space_large"
+        android:background="@drawable/skash"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/add_to_card"
+        app:layout_constraintEnd_toEndOf="@+id/place_order" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/add_to_card"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="@dimen/space_large"
+        android:text="@string/add_to_cart"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/place_order"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/space_small"
+        android:layout_marginBottom="@dimen/space_large"
+        app:icon="@drawable/ic_check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/add_to_card" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

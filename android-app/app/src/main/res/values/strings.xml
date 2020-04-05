@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Bakery Delivery</string>
+
+    <!--  Register Screen  -->
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="address">Address</string>
+    <string name="register">Register</string>
+    <string name="postcode">Postcode</string>
+    <string name="city">City</string>
+
+    <!--  Home Screen -->
+    <string name="greeting_text">Welcome %1$s </string>
+    <string name="bakery_name">Bakery #1</string>
+    <string name="bakery_rating">★ 4.4 (100+)</string>
+    <string name="bakery_distance">2.4 kilometer(s) away</string>
+    <string name="add_to_cart">Add to Cart</string>
+
+</resources>
